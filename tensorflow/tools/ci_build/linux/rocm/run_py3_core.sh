@@ -32,7 +32,7 @@ export PYTHON_BIN_PATH=`which python3`
 export CC_OPT_FLAGS='-mavx'
 
 export TF_NEED_ROCM=1
-export ROCM_PATH=/opt/rocm-3.5.0
+export ROCM_PATH=/opt/rocm-3.7.0
 
 yes "" | $PYTHON_BIN_PATH configure.py
 
